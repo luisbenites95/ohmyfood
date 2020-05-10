@@ -27,14 +27,15 @@ footer {
 
 .prochainement { 
     border-radius: 10px;
-    width : 210px;
-    height : 40px;
+    width : 280px;
+    height : 60px;
     margin: auto;
     margin-bottom: 50px;
 }
 
 .prochainement h3 {
-    padding-left : 5px;
+    text-align: center;
+    padding-top: 10px;
     font-size: 30px;
 }
 
@@ -53,6 +54,10 @@ footer {
  }
 
  #menu_1 img , #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 300px;}
-     
-    
-    #menu_1 a , #menu_2 a , #menu_3 a , #menu_4 a { text-decoration: none;}
+#menu_1 a , #menu_2 a , #menu_3 a , #menu_4 a { text-decoration: none;}
+
+
+#menu_1 a { color : #3c1218; }
+#menu_2 a {color : #c77412; }
+#menu_3 a { color : #0887fb; }
+#menu_4 a { color : #72bf56; }
