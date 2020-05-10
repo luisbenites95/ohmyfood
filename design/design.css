@@ -1,14 +1,22 @@
 body { margin : 0; padding: 0;}
 header, footer, .prochainement { background-color: #579c87; }
-header a , footer a , .prochainement a { color : #fdcb46; text-decoration: none; }
+header a , footer a , .prochainement h3 { color : #fdcb46; text-decoration: none; }
 #menu_1::after {background-color: #fcdfdb;}
 #menu_2::after { background-color: #fff5fe;}
 #menu_3::after { background-color: #f9f9f9;}
 #menu_4::after { background-color: #fdfffd;}
 
-@font-face {  font-family: 'font_menu_3';  src: url('new_font.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_1';  src: url('Devonshire-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_2';  src: url('Kurale-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_3';  src: url('DancingScript-VariableFont_wght.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_4';  src: url('KaushanScript-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu';  src: url('Itim-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_titre';  src: url('Montserrat-Medium.ttf') format('truetype'); }
 
-header , footer , .prochainement {     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+
+
+header , footer , .prochainement { font-family: 'font_titre';  }
 
 
 header { height : 230px; }
@@ -33,9 +41,9 @@ footer {
 
 footer h4 { transform: scale(2); }
 
-#contact { padding-right: 70px; }
+#contact { padding-right: 80px; }
 
-#mention { padding-left: 70px;}
+#mention { padding-left: 80px;}
 
 .prochainement { 
     border-radius: 10px;
@@ -71,18 +79,22 @@ footer h4 { transform: scale(2); }
 
 
 
-#menu_1 a { color : #3c1218; }
-#menu_2 a {color : #c77412; }
-#menu_3 a { color : #0887fb; }
-#menu_4 a { color : #72bf56; }
+#menu1 { color : #3c1218; }
+#menu2 {color : #c77412; }
+#menu3 { color : #0887fb; }
+#menu4 { color : #72bf56; }
 
+.menu {font-family: 'font_menu';}
+#menu_1 h1 { font-family: "font_menu_1";}
+#menu_2 h1 { font-family: "font_menu_2";}
 #menu_3 h1 { font-family: "font_menu_3";}
+#menu_4 h1 { font-family: "font_menu_4";}
 
 /* Effet zoom */
 
 .zoom { 
 
-    margin: 0;
+    
     transition: transform 400ms; 
  }
 #menu_1:hover .zoom , #menu_2:hover .zoom , #menu_3:hover .zoom , #menu_4:hover .zoom { 
