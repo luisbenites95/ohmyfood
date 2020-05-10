@@ -2,8 +2,8 @@ body { margin : 0; padding: 0;}
 header, footer, .prochainement { background-color: #579c87; }
 header a , footer a , .prochainement h3 { color : #fdcb46; text-decoration: none; }
 #menu_1::after {background-color: #fcdfdb;}
-#menu_2::after { background-color: #fff5fe;}
-#menu_3::after { background-color: #f9f9f9;}
+#menu_2::after { background-color: #f8ddf6;}
+#menu_3::after { background-color: #eceeee;}
 #menu_4::after { background-color: #fdfffd;}
 
 @font-face {  font-family: 'font_menu_1';  src: url('Devonshire-Regular.ttf') format('truetype'); }
@@ -122,4 +122,21 @@ footer h4 { transform: scale(2); }
 
 #menu_1:hover::after , #menu_2:hover::after , #menu_3:hover::after , #menu_4:hover::after {
     opacity: 0.5;
+}
+
+
+/* Effet vibration Mentions légales et Contactez-Nous */
+
+@keyframes secouer {
+
+    0% { transform: rotate(0deg)  }
+   25% { transform: rotate(1deg) translateX(1%) translateY(1%); }
+   75% { transform: rotate(-1deg) translateX(-1%) translateY(-1%) ; }
+  100% { transform: rotate(0deg) translateX(0) translateY(0); }
+    
+    }
+
+#mention:hover , #contact:hover {
+    animation : secouer 100ms ;
+    animation-iteration-count: 8;
 }
