@@ -19,18 +19,23 @@ header h1 {
 
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width : 100%;
     display: flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
 }
+
+#contact { padding-right: 10px; }
+
+#mention { padding-left: 10px;;}
 
 .prochainement { 
     border-radius: 10px;
     width : 280px;
     height : 60px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 130px;
 }
 
 .prochainement h3 {
