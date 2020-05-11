@@ -1,6 +1,6 @@
 body { margin : 0; padding: 0;}
 header, footer, .prochainement { background-color: #579c87; }
-header a , footer a , .prochainement h3 { color : #fdcb46; text-decoration: none; }
+header a , footer a , .prochainement h3 , .prochainement::after { color : #fdcb46; text-decoration: none; }
 #menu_1::after {background-color: #fcdfdb;}
 #menu_2::after { background-color: #f8ddf6;}
 #menu_3::after { background-color: #eceeee;}
@@ -47,14 +47,14 @@ footer h4 { transform: scale(2); }
 
 .prochainement { 
     border-radius: 10px;
-    width : 280px;
+    width : 300px;
     height : 60px;
     margin: auto;
     margin-bottom: 130px;
 }
 
 .prochainement h3 {
-    text-align: center;
+    padding-left: 10px;
     padding-top: 10px;
     font-size: 30px;
 }
@@ -139,4 +139,21 @@ footer h4 { transform: scale(2); }
 #mention:hover , #contact:hover {
     animation : secouer 100ms ;
     animation-iteration-count: 8;
+}
+
+
+.prochainement h3 { display: inline;}
+
+.prochainement::after {
+    display: inline;
+    animation: a_venir 1s infinite ;
+    content: '';
+    font-size: 40px;}
+
+@keyframes a_venir {
+0%   { content: '' ; opacity: 0;  }
+25%  { content: ' .' ; opacity: 0.8;  }
+50%  { content: ' ..'; opacity: 0.5; }
+75%  { content: ' ...'; opacity: 0.3;}
+100% { content: '' ; opacity: 0; }
 }
