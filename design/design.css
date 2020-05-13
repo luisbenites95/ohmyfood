@@ -73,7 +73,7 @@ footer h4 { transform: scale(2); }
     width : 500px;
  }
 
-#menu_1 img { margin-top: 200px;}
+#menu_1 i { margin-top: 200px; font-size: 60px;}
 #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 300px;}
 #menu_1 a , #menu_2 a , #menu_3 a , #menu_4 a { text-decoration: none;}
 
@@ -89,6 +89,8 @@ footer h4 { transform: scale(2); }
 #menu_2 h1 { font-family: "font_menu_2";}
 #menu_3 h1 { font-family: "font_menu_3";}
 #menu_4 h1 { font-family: "font_menu_4";}
+
+
 
 /* Effet zoom */
 
@@ -157,3 +159,47 @@ footer h4 { transform: scale(2); }
 75%  { content: ' ...'; opacity: 0.3;}
 100% { content: '' ; opacity: 0; }
 }
+
+
+/* Effet degradé Sur text des memnus */
+
+#menu1 i {
+
+    background-image: linear-gradient(to right, #f04a5e, #f78f6a );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
+
+
+#menu2 h1 {
+
+    background-image: linear-gradient(to right, #d8852e, #905bfd );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
+
+#menu3 h1 {
+
+    background-image: linear-gradient(to right, #082be1, #78c3ff );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
+
+#menu4 h1 {
+
+    background-image: linear-gradient(to right, #33812d, #b5ff87 );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
