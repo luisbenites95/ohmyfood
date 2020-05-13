@@ -69,7 +69,7 @@ footer {
     box-shadow: 2px 2px 5px grey;
     margin: 50px;
     height : 700px;
-    width : 40%;
+    width : 430px;
     vertical-align: top;
 
  }
@@ -207,6 +207,18 @@ footer {
 
 
 
+/* Ecran plus large */
+
+@media all and (min-width : 1500px) {
+
+    #menu_1, #menu_2, #menu_3 , #menu_4 {
+
+        margin: 100px;
+        width: 25%;
+}
+
+}
+
     /* Tablette version */
 
 @media all and (max-width : 1080px) {
@@ -238,7 +250,7 @@ footer {
         margin-right: 0;
         margin-bottom: 25px;  }
 
-    header h1 { font-size: 80px; padding-top: 50px;}
+    header h1 { font-size: 55px; padding-top: 50px;}
 
     #mention h4 { transform: scale(1.2); }
     #contact h4 { transform: scale(1.2);}
