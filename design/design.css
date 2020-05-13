@@ -36,14 +36,13 @@ footer {
     display: flex;
     justify-content: space-between;
     z-index: 1;
-
 }
 
-footer h4 { transform: scale(2); }
+#mention h4, #contact h4 { transform:  scale(2);}
+#mention h4 { padding-left: 50px;}
+#contact h4 { padding-right: 50px;}
 
-#contact { padding-right: 80px; }
 
-#mention { padding-left: 80px;}
 
 .prochainement { 
     border-radius: 10px;
@@ -62,19 +61,21 @@ footer h4 { transform: scale(2); }
 /* DESIGN DES 4 MENUS - GENERAL */
 
 .corps {
-    text-align: center; }
+    text-align: center;
+ }
 
 #menu_1 , #menu_2 , #menu_3 , #menu_4 {
     display: inline-block;
-    vertical-align: top;
-    margin : 100px;
     box-shadow: 2px 2px 5px grey;
+    margin: 50px;
     height : 700px;
-    width : 500px;
+    width : 40%;
+    vertical-align: top;
+
  }
 
-#menu_1 i { margin-top: 200px; font-size: 60px;}
-#menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 300px;}
+#menu_1 i { margin-top: 25%; font-size: 60px;}
+#menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 30%;}
 #menu_1 a , #menu_2 a , #menu_3 a , #menu_4 a { text-decoration: none;}
 
 
@@ -203,3 +204,47 @@ footer h4 { transform: scale(2); }
     background-clip: text;
     color: transparent;
     }
+
+
+
+    /* Tablette version */
+
+@media all and (max-width : 1080px) {
+
+        #menu_1, #menu_2, #menu_3 , #menu_4 {
+            font-size: 9px;
+            height : 200px;
+            width : 35%;
+            margin: 25px;  }
+
+        #menu_1 i { margin-top: 10%; font-size: 30px;}
+        #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 15%;}
+
+        header h1 { font-size: 125px;}
+        
+    }
+
+/* Version Smartphone */
+
+
+@media all and (max-width : 700px) {
+
+    #menu_1, #menu_2, #menu_3 , #menu_4 {
+        font-size: 10px;
+        height : 200px;
+        width : 80%;
+        margin-top:  25px;
+        padding-left: 25px;
+        margin-right: 0;
+        margin-bottom: 25px;  }
+
+    header h1 { font-size: 80px; padding-top: 50px;}
+
+    #mention h4 { transform: scale(1.2); }
+    #contact h4 { transform: scale(1.2);}
+
+
+    
+}
+
+
