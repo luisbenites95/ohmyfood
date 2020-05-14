@@ -234,6 +234,9 @@ footer {
 
         header h1 { font-size: 50px; padding-top: 5px;}
         header { height: 70px;}
+
+        #mention h4 { transform: scale(1.1); padding-left: 15px; }
+        #contact h4 { transform: scale(1.1); padding-right: 15px;}
     
         
     }
@@ -255,8 +258,8 @@ footer {
         margin-bottom: 25px;
         text-align: center;  }
 
-    #mention h4 { transform: scale(1.1); padding-left: 5px; }
-    #contact h4 { transform: scale(1.1); padding-right: 5px;}
+    #mention h4 { transform: scale(1);  }
+    #contact h4 { transform: scale(1); }
 
 
     
