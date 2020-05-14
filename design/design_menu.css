@@ -1,0 +1,129 @@
+body { margin : 0; padding: 0;}
+header, footer { background-color: #579c87; }
+header a , footer a { color : #fdcb46; text-decoration: none; }
+
+
+@font-face {  font-family: 'font_menu_1';  src: url('Devonshire-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_2';  src: url('Kurale-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_3';  src: url('DancingScript-VariableFont_wght.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu_4';  src: url('KaushanScript-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_menu';  src: url('Itim-Regular.ttf') format('truetype'); }
+@font-face {  font-family: 'font_titre';  src: url('Montserrat-Medium.ttf') format('truetype'); }
+
+
+header , footer  { font-family: 'font_titre';  }
+
+
+header { height : 230px; }
+
+header h1 {  
+    margin-top : 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 150px;
+ }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#mention h4, #contact h4 { transform:  scale(2);}
+#mention h4 { padding-left: 50px;}
+#contact h4 { padding-right: 50px;}
+
+main {text-align: center; color : #3c1218; }
+
+main h1 { font-size: 70px; font-family: "font_titre";}
+
+
+/* CSS MENU LA NOTE ENCHANTEE */
+
+#note_enchantee { 
+    display: inline-block;
+    background-color: #fcdfdb;
+    text-align: center;
+    box-shadow: 2px 2px 5px grey;
+    width : 70%;
+    font-family: "font_menu_1";
+    margin-bottom: 100px;
+}
+
+#note_enchantee h2 { font-size: 60px;}
+#note_enchantee h3 { font-size: 50px;}
+td { font-size: 45px; vertical-align: top;}
+
+table { width : 100%; padding-left: 50px; padding-right: 50px; }
+.plat { text-align: left;}
+.prix { text-align: right; }
+
+#note_enchantee_top i { font-size: 110px; margin-top: 70px;  }
+
+
+#note_enchantee_bottom i , #note_enchantee_bottom h4 { 
+    display: inline-block;
+    font-size: 55px;  }
+
+
+/* Degradé couleur */
+
+#note_enchantee i {
+
+    background-image: linear-gradient(to right, #f04a5e, #f78f6a );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+     background-clip: text;
+    color: transparent; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Effet vibration Mentions légales et Contactez-Nous */
+
+@keyframes secouer {
+
+    0% { transform: rotate(0deg)  }
+   25% { transform: rotate(1deg) translateX(1%) translateY(1%); }
+   75% { transform: rotate(-1deg) translateX(-1%) translateY(-1%) ; }
+  100% { transform: rotate(0deg) translateX(0) translateY(0); }
+    
+    }
+
+#mention:hover , #contact:hover {
+    animation : secouer 100ms ;
+    animation-iteration-count: 8; }
+
+    /* Tablette version */
+
+    @media all and (max-width : 1080px) {
+        header h1 { font-size: 50px; padding-top: 5px;}
+        header { height: 70px;}
+
+        #mention h4 { transform: scale(1.1); padding-left: 15px; }
+        #contact h4 { transform: scale(1.1); padding-right: 15px;} }
+
+/* Version Smartphone */
+
+
+@media all and (max-width : 700px) {
+
+    
+    header { min-width: 300px;}
+    #mention h4 { transform: scale(1);  }
+    #contact h4 { transform: scale(1); } }
