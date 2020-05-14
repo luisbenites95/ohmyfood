@@ -37,30 +37,39 @@ footer {
 #mention h4 { padding-left: 50px;}
 #contact h4 { padding-right: 50px;}
 
-main {text-align: center; color : #3c1218; }
 
+main { text-align: center;}
 main h1 { font-size: 70px; font-family: "font_titre";}
 
+/* CSS GENERAL DES MENUS */
 
-/* CSS MENU LA NOTE ENCHANTEE */
-
-#note_enchantee { 
+#note_enchantee , #chic_francaise { 
     display: inline-block;
-    background-color: #fcdfdb;
     text-align: center;
     box-shadow: 2px 2px 5px grey;
     width : 70%;
-    font-family: "font_menu_1";
     margin-bottom: 100px;
 }
 
-#note_enchantee h2 { font-size: 60px;}
-#note_enchantee h3 { font-size: 50px;}
-td { font-size: 45px; vertical-align: top;}
+#note_enchantee h2 , #chic_francaise h2 { font-size: 45px;}
+#note_enchantee h3 , #chic_francaise h3 { font-size: 35px;}
 
-table { width : 100%; padding-left: 50px; padding-right: 50px; }
+td { font-size: 25px; vertical-align: top;}
+
+table { width : 100%; }
 .plat { text-align: left;}
 .prix { text-align: right; }
+
+/* CSS MENU LA NOTE ENCHANTEE */
+
+#menu_1 {color : #3c1218; }
+
+#note_enchantee { 
+    background-color: #fcdfdb;
+    font-family: "font_menu_1";
+}
+
+#menu_1 table { padding-left: 50px; padding-right: 50px; }
 
 #note_enchantee_top i { font-size: 110px; margin-top: 70px;  }
 
@@ -80,6 +89,34 @@ table { width : 100%; padding-left: 50px; padding-right: 50px; }
     -moz-background-clip: text; 
      background-clip: text;
     color: transparent; }
+
+
+/* CSS MENU LE CHIC A LA FRANCAISE */
+
+#chic_francaise {
+    background-color: #f8ddf6;
+    font-family: "font_menu_2";
+}
+
+#mettre_appetit { color : #d8852e; margin-top: 150px;}
+#plaisir_papilles { color : #A38DB0; }
+#gourmandises_sucrees { color : #905bfd; margin-bottom: 150px; }
+
+#menu_2 table { padding-left: 200px; padding-right: 200px; }
+
+/* Dégradé couleur */
+
+#chic_francaise h2 , #menu_2 h1 {
+
+    background-image: linear-gradient(to right, #d8852e, #905bfd );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
+
+
 
 
 
