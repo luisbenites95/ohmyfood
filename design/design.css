@@ -246,14 +246,14 @@ footer {
         height : 200px;
         width : 80%;
         margin-top:  25px;
-        padding-left: 25px;
+        padding-left: 5px;
         margin-right: 0;
         margin-bottom: 25px;  }
 
     header h1 { font-size: 50px; padding-top: 50px;}
 
-    #mention h4 { transform: scale(1.2); }
-    #contact h4 { transform: scale(1.2);}
+    #mention h4 { transform: scale(1.1); }
+    #contact h4 { transform: scale(1.1);}
 
 
     
