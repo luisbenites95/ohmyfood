@@ -74,8 +74,8 @@ footer {
 
  }
 
-#menu_1 i { margin-top: 25%; font-size: 60px;}
-#menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 30%;}
+#menu_1 i { margin-top: 250px; font-size: 60px;}
+#menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 300px;}
 #menu_1 a , #menu_2 a , #menu_3 a , #menu_4 a { text-decoration: none;}
 
 
@@ -229,8 +229,8 @@ footer {
             width : 35%;
             margin: 25px;  }
 
-        #menu_1 i { margin-top: 10%; font-size: 30px;}
-        #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 15%;}
+        #menu_1 i { margin-top: 70px; font-size: 30px;}
+        #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 80px;}
 
         header h1 { font-size: 50px; padding-top: 5px;}
         header { height: 70px;}
@@ -252,7 +252,6 @@ footer {
 
     #menu_1, #menu_2, #menu_3 , #menu_4 {
         font-size: 10px;
-        height : 200px;
         width : 80%;
         margin-top:  25px;
         margin-bottom: 25px;
