@@ -43,7 +43,7 @@ main h1 { font-size: 70px; font-family: "font_titre";}
 
 /* CSS GENERAL DES MENUS */
 
-#note_enchantee , #chic_francaise { 
+#note_enchantee , #chic_francaise , #delice_papilles { 
     display: inline-block;
     text-align: center;
     box-shadow: 2px 2px 5px grey;
@@ -51,8 +51,8 @@ main h1 { font-size: 70px; font-family: "font_titre";}
     margin-bottom: 100px;
 }
 
-#note_enchantee h2 , #chic_francaise h2 { font-size: 45px;}
-#note_enchantee h3 , #chic_francaise h3 { font-size: 35px;}
+#note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 { font-size: 45px;}
+#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3 { font-size: 35px;}
 
 td { font-size: 25px; vertical-align: top;}
 
@@ -109,6 +109,32 @@ table { width : 100%; }
 #chic_francaise h2 , #menu_2 h1 {
 
     background-image: linear-gradient(to right, #d8852e, #905bfd );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
+
+
+/* CSS MENU LE DELICE DES PAPILLES */
+
+#delice_papilles {
+    background-color: #eceeee;
+    font-family: "font_menu_3";
+}
+
+#commencer { margin-top: 150px;}
+#terminer { margin-bottom: 200px;}
+
+
+#menu_3 table { padding-left: 200px; padding-right: 200px; }
+
+/* Dégradé couleur */
+
+#delice_papilles h2 , #menu_3 h1 {
+
+    background-image: linear-gradient(to right, #082be1, #78c3ff );  
     -webkit-background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text; 
