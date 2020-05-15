@@ -54,11 +54,13 @@ main h1 { font-size: 70px; font-family: "font_titre";}
 #note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 , #palette_gout h2 { font-size: 45px;}
 #note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 35px;}
 
-td { font-size: 25px; vertical-align: top;}
+td { font-size: 20px; vertical-align: top;}
 
 table { width : 100%; }
 .plat { text-align: left;}
 .prix { text-align: right; }
+
+#menu_1 table , #menu_2 table , #menu_3 table , #menu_4 table { padding-left: 50px; padding-right: 50px; }
 
 /* CSS MENU LA NOTE ENCHANTEE */
 
@@ -69,7 +71,7 @@ table { width : 100%; }
     font-family: "font_menu_1";
 }
 
-#menu_1 table { padding-left: 50px; padding-right: 50px; }
+
 
 #note_enchantee i { font-size: 110px; margin-top: 70px;  }
 
@@ -102,7 +104,7 @@ table { width : 100%; }
 #plaisir_papilles { color : #A38DB0; }
 #gourmandises_sucrees { color : #905bfd; margin-bottom: 150px; }
 
-#menu_2 table { padding-left: 200px; padding-right: 200px; }
+
 
 /* Dégradé couleur */
 
@@ -128,7 +130,7 @@ table { width : 100%; }
 #terminer { margin-bottom: 200px;}
 
 
-#menu_3 table { padding-left: 200px; padding-right: 200px; }
+
 
 /* Dégradé couleur */
 
@@ -155,7 +157,6 @@ table { width : 100%; }
 #sommet { margin-bottom: 200px;}
 
 
-#menu_4 table { padding-left: 200px; padding-right: 200px; }
 
 /* Dégradé couleur */
 
@@ -197,7 +198,13 @@ table { width : 100%; }
         header { height: 70px;}
 
         #mention h4 { transform: scale(1.1); padding-left: 15px; }
-        #contact h4 { transform: scale(1.1); padding-right: 15px;} }
+        #contact h4 { transform: scale(1.1); padding-right: 15px;} 
+
+        #note_enchantee , #chic_francaise , #delice_papilles , #palette_gout { width : 90%; }
+        td { font-size: 15px; } 
+        #menu_1 table , #menu_2 table , #menu_3 table , #menu_4 table { padding-left: 15px; padding-right: 15px; }
+    }   
+
 
 /* Version Smartphone */
 
