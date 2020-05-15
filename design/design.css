@@ -263,3 +263,15 @@ footer {
 
 
 
+/* DESIGN MENTION LEGALE PAGE */
+
+#page_mention { margin-left : 50px; margin-bottom : 150px; }
+#page_mention h2 { text-align: center; font-size: 50px;}
+#page_mention h2 , h3 { color : red;}
+#page_mention h3 { font-size: 25px;}
+
+#page_mention section { width : 90%; text-align: justify; box-shadow: 5px 5px 5px grey; padding: 10px;}
+
+
+
+
