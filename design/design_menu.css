@@ -63,7 +63,11 @@ table { width : 100%; }
 #menu_1 table , #menu_2 table , #menu_3 table , #menu_4 table { padding-left: 50px; padding-right: 50px; }
 #note_enchantee i , #mettre_appetit , #commencer , #esquisse { margin-top: 150px;} 
 
-/* CSS MENU LA NOTE ENCHANTEE */
+#gourmandises_sucrees , #sommet , #terminer { margin-bottom: 150px;}
+
+
+
+                                                /* CSS MENU LA NOTE ENCHANTEE */
 
 #menu_1 {color : #3c1218; }
 
@@ -94,7 +98,7 @@ table { width : 100%; }
     color: transparent; }
 
 
-/* CSS MENU LE CHIC A LA FRANCAISE */
+                                                                    /* CSS MENU LE CHIC A LA FRANCAISE */
 
 #chic_francaise {
     background-color: #f8ddf6;
@@ -103,7 +107,7 @@ table { width : 100%; }
 
 #mettre_appetit { color : #d8852e; }
 #plaisir_papilles { color : #A38DB0; }
-#gourmandises_sucrees { color : #905bfd; margin-bottom: 150px; }
+#gourmandises_sucrees { color : #905bfd; }
 
 
 
@@ -120,16 +124,12 @@ table { width : 100%; }
     }
 
 
-/* CSS MENU LE DELICE DES PAPILLES */
+                                                    /* CSS MENU LE DELICE DES PAPILLES */
 
 #delice_papilles {
     background-color: #eceeee;
     font-family: "font_menu_3";
 }
-
-#terminer { margin-bottom: 200px;}
-
-
 
 
 /* Dégradé couleur */
@@ -146,15 +146,12 @@ table { width : 100%; }
 
 
 
-/* CSS MENU LA PALETTE DU GOUT */
+                                                /* CSS MENU LA PALETTE DU GOUT */
 
 #palette_gout {
     font-family: "font_menu_4";
     background-color: white;
 }
-
-#sommet { margin-bottom: 200px;}
-
 
 
 /* Dégradé couleur */
@@ -168,12 +165,6 @@ table { width : 100%; }
     background-clip: text;
     color: transparent;
     }
-
-
-
-
-
-
 
 /* Effet vibration Mentions légales et Contactez-Nous */
 
@@ -221,6 +212,8 @@ table { width : 100%; }
     #note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 20px;}
     #note_enchantee i , #mettre_appetit , #commencer , #esquisse { margin-top: 50px;} 
     main h1 { font-size: 30px;}
+    #menu_1 table , #menu_2 table , #menu_3 table , #menu_4 table { padding-left: 3px; padding-right: 3px; }
+    #gourmandises_sucrees , #sommet , #terminer { margin-bottom: 50px;}
 
 
 }
