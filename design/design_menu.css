@@ -206,7 +206,7 @@ table { width : 100%; }
     header { min-width: 300px;}
     #mention h4 { transform: scale(1);  }
     #contact h4 { transform: scale(1); }
-    td { display: block;}
+    td { display: block; font-size: 10px;}
     .prix , .plat { text-align: center;}
     #note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 , #palette_gout h2 { font-size: 30px;}
     #note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 20px;}
