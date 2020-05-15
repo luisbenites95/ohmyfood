@@ -43,7 +43,7 @@ main h1 { font-size: 70px; font-family: "font_titre";}
 
 /* CSS GENERAL DES MENUS */
 
-#note_enchantee , #chic_francaise , #delice_papilles { 
+#note_enchantee , #chic_francaise , #delice_papilles , #palette_gout { 
     display: inline-block;
     text-align: center;
     box-shadow: 2px 2px 5px grey;
@@ -51,8 +51,8 @@ main h1 { font-size: 70px; font-family: "font_titre";}
     margin-bottom: 100px;
 }
 
-#note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 { font-size: 45px;}
-#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3 { font-size: 35px;}
+#note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 , #palette_gout h2 { font-size: 45px;}
+#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 35px;}
 
 td { font-size: 25px; vertical-align: top;}
 
@@ -144,12 +144,30 @@ table { width : 100%; }
 
 
 
+/* CSS MENU LA PALETTE DU GOUT */
+
+#palette_gout {
+    font-family: "font_menu_4";
+    background-color: white;
+}
+
+#esquisse { margin-top: 150px;}
+#sommet { margin-bottom: 200px;}
 
 
+#menu_4 table { padding-left: 200px; padding-right: 200px; }
 
+/* Dégradé couleur */
 
+#palette_gout h2 , #menu_4 h1 {
 
-
+    background-image: linear-gradient(to right, #33812d, #b5ff87 );  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    }
 
 
 
