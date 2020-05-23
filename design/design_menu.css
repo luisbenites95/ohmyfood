@@ -69,9 +69,12 @@ table { width : 100%; }
 
                                         /* Design des traits */
 
-.trait_menu_1_gauche , .trait_menu_1_droit { width: 35%;  }
+.trait_menu_1_gauche , .trait_menu_1_droit , .trait_menu_2_mettre_appetit , .trait_menu_2_plaisir_papilles , .trait_menu_2_gourmandises_sucrees { width: 35%;  }
 .trait_menu_1_gauche hr , .trait_menu_1_droit hr { background-color: #3c1218; height: 5px; border: none; border-radius: 20%;}
-#note_enchantee h3 { margin : 0; }
+.trait_menu_2_mettre_appetit hr { background-color: #d8852e; height: 5px; border: none; border-radius: 20%;}
+.trait_menu_2_plaisir_papilles hr { background-color: #A38DB0 ; height: 5px; border: none; border-radius: 20%;}
+.trait_menu_2_gourmandises_sucrees hr { background-color: #905bfd ; height: 5px; border: none; border-radius: 20%;}
+#note_enchantee h3 , #chic_francaise h3 { margin : 0; }
 
 
 
