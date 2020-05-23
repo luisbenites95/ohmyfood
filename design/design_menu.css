@@ -52,7 +52,7 @@ main h1 { font-size: 70px; font-family: "font_titre";}
 }
 
 #note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 , #palette_gout h2 { font-size: 45px;}
-#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 35px;}
+#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 25px;}
 
 td { font-size: 20px; vertical-align: top;}
 
@@ -78,7 +78,7 @@ table { width : 100%; }
 .trait_menu_3_continuer ,
 .trait_menu_3_terminer ,
 .trait_menu_4_gauche ,
-.trait_menu_4_droite  { width: 35%;  }
+.trait_menu_4_droite  { width: 30%;  }
 
 
 .trait_menu_1_gauche hr , .trait_menu_1_droit hr { background-color: #3c1218; height: 5px; border: none; border-radius: 20%;}
