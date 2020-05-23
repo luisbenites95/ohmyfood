@@ -67,6 +67,14 @@ table { width : 100%; }
 
 
 
+                                        /* Design des traits */
+
+.trait_menu_1_gauche , .trait_menu_1_droit { width: 35%;  }
+.trait_menu_1_gauche hr , .trait_menu_1_droit hr { background-color: #3c1218; height: 5px; border: none; border-radius: 20%;}
+#note_enchantee h3 { margin : 0; }
+
+
+
                                                 /* CSS MENU LA NOTE ENCHANTEE */
 
 #menu_1 {color : #3c1218; }
@@ -75,6 +83,7 @@ table { width : 100%; }
     background-color: #fcdfdb;
     font-family: "font_menu_1";
 }
+
 
 
 
@@ -214,6 +223,7 @@ table { width : 100%; }
     main h1 { font-size: 30px;}
     #menu_1 table , #menu_2 table , #menu_3 table , #menu_4 table { padding-left: 3px; padding-right: 3px; }
     #gourmandises_sucrees , #sommet , #terminer { margin-bottom: 50px;}
+    hr { visibility: hidden;}
 
 
 }
