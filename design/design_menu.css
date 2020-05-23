@@ -76,7 +76,9 @@ table { width : 100%; }
 .trait_menu_2_gourmandises_sucrees , 
 .trait_menu_3_commencer ,
 .trait_menu_3_continuer ,
-.trait_menu_3_terminer { width: 35%;  }
+.trait_menu_3_terminer ,
+.trait_menu_4_gauche ,
+.trait_menu_4_droite  { width: 35%;  }
 
 
 .trait_menu_1_gauche hr , .trait_menu_1_droit hr { background-color: #3c1218; height: 5px; border: none; border-radius: 20%;}
@@ -89,7 +91,13 @@ table { width : 100%; }
 .trait_menu_3_continuer hr { background-color: #4A85F3 ; height: 5px; border: none; border-radius: 20%;}
 .trait_menu_3_terminer hr { background-color: #78c3ff; height: 5px; border: none; border-radius: 20%;}
 
-#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3 { margin : 0; }
+.trait_menu_4_gauche hr , .trait_menu_4_droite hr { height: 5px; border: none; border-radius: 20%; }
+
+.trait_menu_4_gauche hr { background: linear-gradient(to right, #33812d, #b5ff87 ); }
+.trait_menu_4_droite hr { background : linear-gradient(to left , #33812d, #b5ff87 ); }
+
+
+#note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3 , #palette_gout h3 { margin : 0; }
 
 
 
