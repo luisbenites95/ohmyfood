@@ -101,6 +101,21 @@ table { width : 100%; }
 
 
 
+/* DESIGN HOVER SURLIGNE */
+
+h3:hover::after { transform: scaleX(1); }
+
+
+h3::after {
+      content: "";
+      border-top: solid 3px;
+      display: block;
+      transform: scaleX(0);
+      transition: 1s;
+      transform-origin: 0% 50%; 
+}
+
+
                                                 /* CSS MENU LA NOTE ENCHANTEE */
 
 #menu_1 {color : #3c1218; }
@@ -200,6 +215,7 @@ table { width : 100%; }
     background-clip: text;
     color: transparent;
     }
+
 
 /* Effet vibration Mentions légales et Contactez-Nous */
 
