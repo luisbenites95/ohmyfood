@@ -61,6 +61,9 @@ footer {
 
 /* DESIGN DES 4 MENUS - GENERAL */
 
+nav { max-width: 1500px;
+    margin : auto;}
+
 #index { text-align: center; }
 
 .menu {
@@ -201,16 +204,6 @@ footer {
     color: transparent;
     }
 
-
-/* Ecran plus large */
-
-@media all and (min-width : 1500px) {
-
-    .menu {
-
-        margin: 100px;
-        width: 25%; }
-}
 
     /* Tablette version */
 
