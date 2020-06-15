@@ -19,13 +19,19 @@ header a , footer a , .prochainement h3 , .prochainement::after { color : #fdcb4
 header , footer , .prochainement { font-family: 'font_titre';  }
 
 
-header { height : 230px; }
+
+
+#mention h4 { transform: scale(1.1); padding-left: 15px; }
+#contact h4 { transform: scale(1.1); padding-right: 15px;}
+
+header { height: 70px;}
 
 header h1 {  
     margin-top : 0;
-    padding-top: 20px;
+    font-size: 50px; 
+    padding-top: 5px;
     text-align: center;
-    font-size: 150px;
+
  }
 
 
@@ -37,12 +43,6 @@ footer {
     justify-content: space-between;
     z-index: 1;
 }
-
-#mention h4, #contact h4 { transform:  scale(2);}
-#mention h4 { padding-left: 50px;}
-#contact h4 { padding-right: 50px;}
-
-
 
 .prochainement { 
     border-radius: 10px;
@@ -218,11 +218,6 @@ nav { max-width: 1500px;
         #menu_1 i { margin-top: 70px; font-size: 30px;}
         #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 80px;}
 
-        header h1 { font-size: 50px; padding-top: 5px;}
-        header { height: 70px;}
-
-        #mention h4 { transform: scale(1.1); padding-left: 15px; }
-        #contact h4 { transform: scale(1.1); padding-right: 15px;}
     
         
     }
