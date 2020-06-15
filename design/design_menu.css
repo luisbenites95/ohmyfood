@@ -93,7 +93,7 @@ table { width : 100%; }
 
 .trait_menu_4_gauche hr , .trait_menu_4_droite hr { height: 5px; border: none; border-radius: 20%; }
 
-.trait_menu_4_gauche hr { background: linear-gradient(to right, #33812d, #b5ff87 ); }
+.trait_menu_4_gauche hr   { background: linear-gradient(to right, #33812d, #b5ff87 ); }
 .trait_menu_4_droite hr { background : linear-gradient(to left , #33812d, #b5ff87 ); }
 
 
@@ -115,6 +115,21 @@ h3::after {
       transform-origin: 0% 50%; 
 }
 
+#menu_4 h3::after   {
+    border-top: solid 3px #b5ff87;
+}
+
+#commencer h3::after   {
+    border-top: solid 3px #082be1;
+}
+
+#continuer h3::after   {
+    border-top: solid 3px #4A85F3;
+}
+
+#terminer h3::after   {
+    border-top: solid 3px #78c3ff;
+}
 
                                                 /* CSS MENU LA NOTE ENCHANTEE */
 
