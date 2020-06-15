@@ -83,13 +83,13 @@ nav { max-width: 1500px;
 #menu_4 { color : #72bf56; }
 
 #menu_1 i { margin-top: 250px; font-size: 60px;}
-#menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 300px;}
+#menu_2 h2 , #menu_3 h2 , #menu_4 h2 { margin-top: 300px;}
 .menu a { text-decoration: none;}
 .menu_titre {font-family: 'font_menu';}
-#menu_1 h1 { font-family: "font_menu_1";}
-#menu_2 h1 { font-family: "font_menu_2";}
-#menu_3 h1 { font-family: "font_menu_3";}
-#menu_4 h1 { font-family: "font_menu_4";}
+#menu_1 h2 { font-family: "font_menu_1";}
+#menu_2 h2 { font-family: "font_menu_2";}
+#menu_3 h2 { font-family: "font_menu_3";}
+#menu_4 h2 { font-family: "font_menu_4";}
 
 
 
@@ -98,9 +98,9 @@ nav { max-width: 1500px;
 .zoom {display: inline-block;}
 
 
-#menu_1 i , .menu h1 , .menu h2 {  transition: transform 400ms;  } 
+#menu_1 i , .menu h2 , .menu h3 {  transition: transform 400ms;  } 
 
-#menu_1:hover i , .menu:hover h1 , .menu:hover h2{ transform: scale(1.3); }
+#menu_1:hover i , .menu:hover h2 , .menu:hover h3{ transform: scale(1.3); }
 
 
 
@@ -167,37 +167,33 @@ nav { max-width: 1500px;
 
     background-image: linear-gradient(to right, #f04a5e, #f78f6a );  
     -webkit-background-clip: text;
-    -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
     }
 
 
-#menu_2 h1 {
+#menu_2 h2 {
 
     background-image: linear-gradient(to right, #d8852e, #905bfd );  
     -webkit-background-clip: text;
-    -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
     }
 
-#menu_3 h1 {
+#menu_3 h2 {
 
     background-image: linear-gradient(to right, #082be1, #78c3ff );  
     -webkit-background-clip: text;
-    -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
     }
 
-#menu_4 h1 {
+#menu_4 h2 {
 
     background-image: linear-gradient(to right, #33812d, #b5ff87 );  
-    -webkit-background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
@@ -216,7 +212,7 @@ nav { max-width: 1500px;
             margin: 25px;  }
 
         #menu_1 i { margin-top: 105px; font-size: 30px;}
-        #menu_2 h1 , #menu_3 h1 , #menu_4 h1 { margin-top: 115px;}
+        #menu_2 h2 , #menu_3 h2 , #menu_4 h2 { margin-top: 115px;}
 
     
         
@@ -250,7 +246,7 @@ nav { max-width: 1500px;
 
 #page_mention { margin-left : 50px; margin-bottom : 150px; }
 #page_mention h2 { text-align: center; font-size: 50px;}
-#page_mention h2 , h3 { color : red;}
+#page_mention h2 , #page_mention h3 { color : red;}
 #page_mention h3 { font-size: 25px;}
 
 #page_mention section { width : 90%; text-align: justify; box-shadow: 5px 5px 5px grey; padding: 10px;}

@@ -157,7 +157,6 @@ h3::after {
 
     background-image: linear-gradient(to right, #f04a5e, #f78f6a );  
     -webkit-background-clip: text;
-    -webkit-background-clip: text;
     -moz-background-clip: text; 
      background-clip: text;
     color: transparent; }
@@ -182,7 +181,6 @@ h3::after {
 
     background-image: linear-gradient(to right, #d8852e, #905bfd );  
     -webkit-background-clip: text;
-    -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
@@ -202,7 +200,6 @@ h3::after {
 #delice_papilles h2 , #menu_3 h1 {
 
     background-image: linear-gradient(to right, #082be1, #78c3ff );  
-    -webkit-background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
@@ -224,7 +221,6 @@ h3::after {
 #palette_gout h2 , #menu_4 h1 {
 
     background-image: linear-gradient(to right, #33812d, #b5ff87 );  
-    -webkit-background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
