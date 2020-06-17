@@ -263,7 +263,8 @@ h3::after {
     header { min-width: 300px;}
     #mention h4 { transform: scale(1);  }
     #contact h4 { transform: scale(1); }
-    td { display: block; font-size: 10px;}
+    td { display: block; font-size: 20px;}
+    tr { border-bottom : 1px solid black;}
     .prix , .plat { text-align: center;}
     #note_enchantee h2 , #chic_francaise h2 , #delice_papilles h2 , #palette_gout h2 { font-size: 30px;}
     #note_enchantee h3 , #chic_francaise h3 , #delice_papilles h3, #palette_gout h3 { font-size: 20px;}

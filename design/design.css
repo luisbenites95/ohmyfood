@@ -46,7 +46,7 @@ footer {
 
 .prochainement { 
     border-radius: 10px;
-    width : 300px;
+    width : 280px;
     height : 60px;
     margin: auto;
     margin-bottom: 130px;
@@ -56,7 +56,7 @@ footer {
 .prochainement h3 {
     padding-left: 10px;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 /* DESIGN DES 4 MENUS - GENERAL */
@@ -206,7 +206,6 @@ nav { max-width: 1500px;
 @media all and (max-width : 1080px) {
 
         .menu {
-            font-size: 9px;
             height : 350px;
             width : 35%;
             margin: 25px;  }
@@ -228,9 +227,9 @@ nav { max-width: 1500px;
     #index { text-align: left;}
     nav { text-align: center;}
     .menu {
-        margin-right : 50px;
+        margin-left : 33px;
+        margin-right : 33px;
         min-width: 250px;
-        font-size: 10px;
         margin-top:  25px;
         margin-bottom: 25px;
         text-align: center;  }
